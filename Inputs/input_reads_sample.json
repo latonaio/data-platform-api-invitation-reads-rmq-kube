@@ -1,0 +1,55 @@
+{
+	"connection_key": "request",
+	"result": true,
+	"redis_key": "abcdefg",
+	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+	"api_status_code": 200,
+	"runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+	"business_partner": 1001,
+	"service_label": "INVITATION",
+	"api_type": "reads",
+	"Invitation": {
+		"Invitation": 1,
+		"InvitationType": "001",
+		"InvitationOwner": 401,
+		"InvitationGuest": 1,
+		"InvitationObjectType": "EVENT",
+		"InvitationObject": 1,
+		"OwnerParticipation": 1,
+		"OwnerAttendance": null,
+		"GuestParticipation": null,
+		"GuestAttendance": null,
+		"ValidityStartDate": "2024-04-01",
+		"ValidityEndDate": "2024-04-30",
+		"CreationDate": "",
+		"CreationTime": "",
+		"IsCancelled": null,
+		"HeaderDoc": [
+			{
+				"DocType": "",
+				"DocVersionID": null,
+				"DocID": "",
+				"FileExtension": "",
+				"FileName": "",
+				"FilePath": "",
+				"DocIssuerBusinessPartner": null
+			}
+		],
+		"ValidationCheck": [
+			{
+				"InvitationObjectType": "EVENT",
+				"InvitationObject": 1,
+				"InvitationOwner": 401,
+				"InvitationGuest": 1,
+				"Invitation": 1,
+				"CreationDate": "",
+				"CreationTime": "",
+				"IsCancelled": null
+			}
+		]
+	},
+	"api_schema": "DPFMInvitationReads",
+	"accepter": [
+		"Header"
+	]
+}
